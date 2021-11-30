@@ -2,8 +2,8 @@
 
 """
 Author: yx
-Update at: 2021/11/15
-info: 重写公共逻辑
+Update at: 2021/11/30
+info: 重写公共逻辑,脱敏处理
 """
 
 import requests
@@ -36,21 +36,20 @@ class EnvConfig(object):
 
 
 # 字典实现环境切换。key: 实例
-test_env = {"stage": EnvConfig("https://janus.stage.tenclass.com", "00001", "ChunXia1@gmail.com", 2).login_config(),
-            "uat": EnvConfig("https://janus-uat.tenclass.com", "nwb540fd11e8063c", "putong@gmail.com",
-                             1).login_config(),
-            "prod": EnvConfig("https://janus.tenclass.com", "nw00b13940a00004", "putong@gmail.com", 1).login_config()}
+test_env = {"stage": EnvConfig("xxx", "xxx", "xxx", "xxx").login_config(),
+            "uat": EnvConfig("xxx", "xxx", "xxx","xxx").login_config(),
+            "prod": EnvConfig("xxx", "xxx", "xxx", "xxx").login_config()}
 
 host, headers = test_env["uat"]
 
 # 函数实现环境切换
 # def env(env_id):
 #     if env_id == 1:
-#         return EnvConfig("https://janus.stage.tenclass.com", "00001", "ChunXia1@gmail.com", 2).login_config()
+#         return EnvConfig("xxx", "xxx", "xxx", "xxx").login_config()
 #     elif env_id == 2:
-#         return EnvConfig("https://janus-uat.tenclass.com", "nwb540fd11e8063c", "putong@gmail.com", 1).login_config()
+#         return EnvConfig("xxx", "xxx", "xxx", "xxx").login_config()
 #     elif env_id == 3:
-#         return EnvConfig("https://janus.tenclass.com", "nw00b13940a00004", "putong@gmail.com", 1).login_config()
+#         return EnvConfig("xxx", "xxx", "xxx", "xxx").login_config()
 #
 #
 # host, headers = env(2)

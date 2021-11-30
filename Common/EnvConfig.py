@@ -2,25 +2,24 @@
 
 """
 Author: yx
-Update at: 2021/10/21
-info: 公共逻辑配置文件
-branch:yx
+Update at: 2021/11/30
+Info: 脱敏处理
 """
 
 import requests
 
 
-shop_code_collection = {"stage": "00001",
-                        "uat": "nwb540fd11e8063c",
-                        "prod": "nw00b13940a00004"}
+shop_code_collection = {"stage": "xxx",
+                        "uat": "xxx",
+                        "prod": "xxx"}
 
-host_collection = {"stage": "https://janus.stage.tenclass.com",
-                   "uat": "https://janus-uat.tenclass.com",
-                   "prod": "https://janus.tenclass.com"}
+host_collection = {"stage": "xxx",
+                   "uat": "xxx",
+                   "prod": "xxx"}
 
-account_collection = {"stage": {"user": "ChunXia1@gmail.com", "passwd": "stage123"},
-                      "uat": {"user": "putong@gmail.com", "passwd": 1},
-                      "prod": {"user": "putong@gmail.com", "passwd": 1}}
+account_collection = {"stage": {"user": "xxx", "passwd": "xxx"},
+                      "uat": {"user": "xxx", "passwd": "xxx"},
+                      "prod": {"user": "xxx", "passwd": "xxx"}}
 
 test_env = "uat"
 
