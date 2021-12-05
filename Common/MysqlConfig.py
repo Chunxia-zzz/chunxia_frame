@@ -3,7 +3,7 @@
 """
 Author: yx
 Update at: 2021/10/18
-info: 数据库连接
+info: 数据库连接(弃用)
 """
 
 import pymysql
