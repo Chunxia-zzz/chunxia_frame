@@ -1,0 +1,116 @@
+{
+  "uid" : "73d4b367f69f809",
+  "name" : "test_3[汉字]",
+  "fullName" : "testcases.SmartTemplateCases.test_live_template_delete#test_3",
+  "historyId" : "4f1290c35c974262b9eea306efb36da7",
+  "time" : {
+    "start" : 1636422615716,
+    "stop" : 1636422615770,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "timer_function_scope",
+    "time" : {
+      "start" : 1636422615716,
+      "stop" : 1636422615716,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_session_scope",
+    "time" : {
+      "start" : 1636422614863,
+      "stop" : 1636422614863,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "timer_function_scope::0",
+    "time" : {
+      "start" : 1636422615771,
+      "stop" : 1636422615771,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_session_scope::0",
+    "time" : {
+      "start" : 1636422618200,
+      "stop" : 1636422618200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.SmartTemplateCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_live_template_delete"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-266NNOE"
+  }, {
+    "name" : "thread",
+    "value" : "1632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.SmartTemplateCases.test_live_template_delete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "template_id",
+    "value" : "'汉字'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73d4b367f69f809.json",
+  "parameterValues" : [ "'汉字'" ]
+}

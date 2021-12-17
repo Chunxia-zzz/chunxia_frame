@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "d04d7cff6a40a8d62acbe840f0f65526",
+    "name" : "testcases.SmartTemplateCases",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 38,
+      "unknown" : 0,
+      "total" : 39
+    }
+  } ]
+}

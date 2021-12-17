@@ -1,0 +1,145 @@
+{
+  "uid" : "8c015504cc9645d9",
+  "name" : "test_1",
+  "fullName" : "testcases.SmartTemplateCases.test_live_template_get#test_1",
+  "historyId" : "a1e1563f9a689c3f57d370ea44cd4d8d",
+  "time" : {
+    "start" : 1636422616378,
+    "stop" : 1636422616507,
+    "duration" : 129
+  },
+  "description" : "查询默认模板组所有智能直播模板",
+  "descriptionHtml" : "<p>查询默认模板组所有智能直播模板</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "db",
+    "time" : {
+      "start" : 1636422616331,
+      "stop" : 1636422616378,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_session_scope",
+    "time" : {
+      "start" : 1636422614863,
+      "stop" : 1636422614863,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_function_scope",
+    "time" : {
+      "start" : 1636422616331,
+      "stop" : 1636422616331,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "db::0",
+    "time" : {
+      "start" : 1636422616507,
+      "stop" : 1636422616507,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_session_scope::0",
+    "time" : {
+      "start" : 1636422618200,
+      "stop" : 1636422618200,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "timer_function_scope::0",
+    "time" : {
+      "start" : 1636422616508,
+      "stop" : 1636422616508,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.SmartTemplateCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_live_template_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-266NNOE"
+  }, {
+    "name" : "thread",
+    "value" : "1632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.SmartTemplateCases.test_live_template_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c015504cc9645d9.json",
+  "parameterValues" : [ ]
+}
