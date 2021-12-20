@@ -7,9 +7,9 @@ info:测试删除模板
 """
 import pytest
 
-from Common.EnvConfig import host, headers
-from api.SmartTemplate.live_template_delete import live_template_delete
-from api.SmartTemplate.live_template_post import live_template_post
+from common.env_config import host, headers
+from api.smart_template.live_template_delete import live_template_delete
+from api.smart_template.live_template_post import live_template_post
 
 
 @pytest.mark.skip(reason="删除已测")

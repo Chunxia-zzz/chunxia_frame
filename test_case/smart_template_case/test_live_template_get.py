@@ -11,10 +11,10 @@ import os
 import allure
 import pytest
 
-from Common.EnvConfig import host, headers
-from Common.MysqlConfig import db_study_center
+from common.env_config import host, headers
+from common.mysql_config import db_study_center
 from Common.RootDirectory import root_path
-from api.SmartTemplate.live_template_get import live_template_get
+from api.smart_template.live_template_get import live_template_get
 
 
 @allure.description('查询默认模板组所有智能直播模板')

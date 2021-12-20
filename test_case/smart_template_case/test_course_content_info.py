@@ -8,8 +8,8 @@ info:测试查询原课程内容信息接口
 
 import pytest
 
-from Common.EnvConfig import host, headers
-from api.SmartTemplate.course_content_info import course_content_info
+from common.env_config import host, headers
+from api.smart_template.course_content_info import course_content_info
 
 
 def test_1():

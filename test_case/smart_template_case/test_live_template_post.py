@@ -8,10 +8,10 @@ info:测试新建智能直播模板接口
 
 import pytest
 
-from Common.EnvConfig import host, headers
-from Common.MysqlConfig import db_study_center
-from api.SmartTemplate.live_template_delete import live_template_delete
-from api.SmartTemplate.live_template_post import live_template_post
+from common.env_config import host, headers
+from common.mysql_config import db_study_center
+from api.smart_template.live_template_delete import live_template_delete
+from api.smart_template.live_template_post import live_template_post
 
 
 def test_1():

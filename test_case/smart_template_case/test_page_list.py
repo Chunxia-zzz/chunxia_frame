@@ -11,10 +11,10 @@ import os
 import allure
 import pytest
 
-from Common.EnvConfig import host, headers
-from Common.MysqlConfig import db_study_center
-from Common.RootDirectory import root_path
-from api.SmartTemplate.page_list import page_list
+from common.env_config import host, headers
+from common.mysql_config import db_study_center
+from common.root_directory import root_path
+from api.smart_template.page_list import page_list
 
 
 @allure.description("查询当前店铺所有模板分组")

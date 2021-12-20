@@ -8,9 +8,9 @@ info:测试查询模板详情
 
 import pytest
 
-from Common.EnvConfig_copy import host, headers
+from common.env_config import host, headers
 # from Common.EnvConfig import host, headers
-from api.SmartTemplate.live_template_detail import live_template_detail
+from api.smart_template.live_template_detail import live_template_detail
 
 
 def test_1():

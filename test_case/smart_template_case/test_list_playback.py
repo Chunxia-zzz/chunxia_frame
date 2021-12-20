@@ -11,10 +11,10 @@ import os
 import allure
 import pytest
 
-from Common.EnvConfig import host, headers
-from Common.MysqlConfig import db_study_center
-from Common.RootDirectory import root_path
-from api.SmartTemplate.list_playback import list_playback
+from common.env_config import host, headers
+from common.mysql_config import db_study_center
+from common.root_directory import root_path
+from api.smart_template.list_playback import list_playback
 
 
 @allure.description('验证回放列表取最近200条数据')

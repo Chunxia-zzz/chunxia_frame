@@ -12,10 +12,10 @@ import allure
 import pytest
 
 # from Common.EnvConfig_copy import host, headers
-from Common.EnvConfig import host, headers
-from Common.MysqlConfig import db_study_center
+from common.env_config import host, headers
+from common.mysql_config import db_study_center
 from Common.RootDirectory import root_path
-from api.SmartTemplate.smart_live_template_bank_put import smart_live_template_bank_put
+from api.smart_template.smart_live_template_bank_put import smart_live_template_bank_put
 
 
 @allure.description('更新模板组名称')

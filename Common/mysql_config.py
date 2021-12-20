@@ -10,11 +10,11 @@ import pymysql
 
 
 class DbCollection(object):
-    study_center = pymysql.connect(host='172.18.80.26',
+    study_center = pymysql.connect(host='xxx',
                                    port=3309,
-                                   user='root',
+                                   user='xxx',
                                    database='study_center',
-                                   passwd='PKC6FBuix4&Cj0Mi')
+                                   passwd='xxx')
 
 
 # 可以指定字符集：charset="utf8"
