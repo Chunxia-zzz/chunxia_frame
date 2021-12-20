@@ -1,0 +1,8 @@
+写下这些代码时候的版本
+
+python 3.6 3.7 3.8 3.9
+requests 2.24.0
+pytest 6.2.5
+pytest-cov 3.0.0
+allure 2.12.1
+jdk-8u45 
