@@ -1,0 +1,4 @@
+# 设置gitignore
+.idea
+.pytest_cache
+__pycache__
