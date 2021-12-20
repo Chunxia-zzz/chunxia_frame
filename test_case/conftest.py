@@ -15,11 +15,11 @@ import pytest
 # 默认作用域也是function
 @pytest.fixture(scope='function')
 def study_center():
-    study_center = pymysql.connect(host='172.18.80.26',
+    study_center = pymysql.connect(host='xxx',
                                    port=3309,
-                                   user='root',
+                                   user='xxx',
                                    database='study_center',
-                                   passwd='PKC6FBuix4&Cj0Mi')
+                                   passwd='xxx')
     cursor = study_center.cursor()
     cursor.execute("SELECT 1+1")  # 测试数据库连接
     values = cursor.fetchall()
@@ -55,7 +55,3 @@ def timer_session_scope():
     finished = time.time()
     print('finished: {}'.format(time.strftime(DATE_FORMAT, time.localtime(finished))))
     print('Total time cost: {:.3f}s'.format(finished - start))
-
-
-def test_postcode(db):
-    assert 10 == 10
