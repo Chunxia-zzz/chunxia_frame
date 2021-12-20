@@ -12,16 +12,15 @@ import allure
 import pytest
 
 from common.env_config import host, headers
-from common.mysql_config import db_study_center
-from Common.RootDirectory import root_path
+from common.root_directory import root_path
 from api.smart_template.live_template_get import live_template_get
 
 
 @allure.description('查询默认模板组所有智能直播模板')
-def test_1(db):
+def test_1(study_center):
     resp = live_template_get(11, host, headers)
 
-    cursor = db_study_center.cursor()
+    cursor = study_center.cursor()
     cursor.execute(
         "SELECT COUNT(*) FROM content_template WHERE shop_id = 10016 AND template_bank_id = 11 AND is_deleted = 0")
     values = cursor.fetchall()

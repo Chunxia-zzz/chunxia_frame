@@ -14,7 +14,7 @@ import pytest
 
 # 默认作用域也是function
 @pytest.fixture(scope='function')
-def db():
+def study_center():
     study_center = pymysql.connect(host='172.18.80.26',
                                    port=3309,
                                    user='root',
