@@ -102,6 +102,8 @@ report_data文件夹存放了具体的测试数据，很多json文件
 
 Step1：接口定义
 
+文件位于api/smart_template/live_template_get.py
+
 ```python
 import requests
 
@@ -121,6 +123,8 @@ def live_template_get(template_bank_id, host, headers):
 ```
 
 Step2：测试用例，数据驱动测试，连接数据库断言，测试报告生成
+
+文件位于test_case/smart_template_case/test_live_template_get.py
 
 ```python
 import os
